@@ -1,0 +1,6 @@
+{
+  "device": "tdisplay",
+  "version": 1,
+  "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/tdisplay/pepdisplay.bin",
+  "notes": "T-Display-S3 weather face v1"
+}
