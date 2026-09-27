@@ -1,0 +1,14 @@
+{
+  "name": "Pepin Dial",
+  "version": "1.0.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/pepin-dial/firmware.bin",
+        "md5": "b80959b36d6a00e0db4bb1a0e90260e3",
+        "summary": "Pepin Dial secure OTA baseline with Wi-Fi credentials retained only in device NVS"
+      }
+    }
+  ]
+}
