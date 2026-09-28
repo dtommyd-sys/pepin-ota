@@ -1,11 +1,11 @@
 {
   "device": "river-display-4.3b",
-  "version": 3,
-  "version_text": "1.1.1",
+  "version": 4,
+  "version_text": "1.2.0",
   "rollout_percent": 100,
   "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/river-display/firmware.bin",
-  "size": 1764512,
-  "md5": "76f727939f001e68939accb37f46f12e",
-  "sha256": "610ed1bd183a72bb831ff00e3c841a2051f021c7188e9d42fede504bfc65fbd8",
-  "notes": "River Display 4.3 native Lake Pepin map: fixes vessel-feed parsing with a low-memory field filter, rate-limits failures, adds cache-safe OTA downloads and exact updater diagnostics, and preserves the accuracy-capped live contact display"
+  "size": 1709776,
+  "md5": "e7c60c8802f6ba1c545afaf5dc8959f8",
+  "sha256": "cb291e8d6179291ad09d23fe564eb0483c3ce8c96ce99f5469ceeed9a782bd26",
+  "notes": "River Display 4.3 statewide Minnesota map with live aircraft movement capped at 30 seconds, color-coded traffic sensor markers, compact conditions HUD, cache-safe OTA downloads, and exact updater diagnostics"
 }
