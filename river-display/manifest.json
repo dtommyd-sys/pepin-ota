@@ -1,11 +1,11 @@
 {
   "device": "river-display-4.3b",
-  "version": 9,
-  "version_text": "1.5.0",
+  "version": 10,
+  "version_text": "1.5.1",
   "rollout_percent": 100,
   "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/river-display/firmware.bin",
-  "size": 1742144,
-  "md5": "29fe8f44c406fd6868694d52fb9e7f8d",
-  "sha256": "43a3244bf455935ddc1973a2b6f5ac6e180f9a4315d5ebf028fefd209d9da187",
-  "notes": "God's Eye night visual release: dark map, heading-rotated aircraft silhouettes, continuous two-layer glowing reported-position trails, MPH flight speeds, larger detail card, and last-known-aircraft retention during feed outages"
+  "size": 1742288,
+  "md5": "acc08d1494c271058e971f56443ba44a",
+  "sha256": "a42079ec75f094c1d6f8604214d2aa344428340d5e5d0be69f81fa93c8a93fde",
+  "notes": "God's Eye touch hotfix: dedicated transparent 48x48 aircraft hit targets and serial touch-event proof while preserving the 1.5 night map, glowing trails, plane silhouettes, MPH, and larger detail card"
 }
