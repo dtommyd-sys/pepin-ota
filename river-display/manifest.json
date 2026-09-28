@@ -1,11 +1,11 @@
 {
   "device": "river-display-4.3b",
-  "version": 7,
-  "version_text": "1.3.1",
+  "version": 8,
+  "version_text": "1.4.0",
   "rollout_percent": 100,
   "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/river-display/firmware.bin",
-  "size": 1721248,
-  "md5": "3ef54f77f210d3c93ad2fe54c25aea98",
-  "sha256": "f3601f11969ec6143c63332f5dd467ebbfb43c4a8cb46ac91fb0eee42c837fdd",
-  "notes": "River Display 4.3 label-rendering hotfix: explicit high-contrast call-sign and speed boxes with edge-aware placement, preserving expanded marker touch targets and tap-to-open details"
+  "size": 1729904,
+  "md5": "67843c011fa335b855ec80448ec516ec",
+  "sha256": "f31cdf3ca0e50bf1cdf2afd355c437072dfd0a3fa6195d1e13e93b17cb027689",
+  "notes": "River Display 4.3 flight intelligence: fading trails from successive reported positions plus tap-to-load origin and destination route details, with explicit unavailable fallback"
 }
