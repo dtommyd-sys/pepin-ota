@@ -1,11 +1,11 @@
 {
   "device": "river-display-4.3b",
-  "version": 8,
-  "version_text": "1.4.0",
+  "version": 9,
+  "version_text": "1.5.0",
   "rollout_percent": 100,
   "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/river-display/firmware.bin",
-  "size": 1729904,
-  "md5": "67843c011fa335b855ec80448ec516ec",
-  "sha256": "f31cdf3ca0e50bf1cdf2afd355c437072dfd0a3fa6195d1e13e93b17cb027689",
-  "notes": "River Display 4.3 flight intelligence: fading trails from successive reported positions plus tap-to-load origin and destination route details, with explicit unavailable fallback"
+  "size": 1742144,
+  "md5": "29fe8f44c406fd6868694d52fb9e7f8d",
+  "sha256": "43a3244bf455935ddc1973a2b6f5ac6e180f9a4315d5ebf028fefd209d9da187",
+  "notes": "God's Eye night visual release: dark map, heading-rotated aircraft silhouettes, continuous two-layer glowing reported-position trails, MPH flight speeds, larger detail card, and last-known-aircraft retention during feed outages"
 }
