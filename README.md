@@ -7,6 +7,9 @@ Firmware stores wifi creds in NVS (not in the .bin), so these binaries are safe 
 
 - `tdisplay/` — PepDisplay T-Display-S3 releases.
 - `pepin-dial/` — Elecrow CrowPanel 2.1-inch round releases using the ESPHome HTTP-update manifest format.
+- `river-display/` — Waveshare ESP32-S3-Touch-LCD-4.3B River Display and
+  native God's Eye face. Uses dual OTA partitions, authenticated HTTPS,
+  checksum verification, deterministic rollout rings, and rollback marking.
 
 Before publishing a binary, verify that its configured SSID and password
 literals are absent and that the manifest checksum matches the file.
