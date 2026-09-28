@@ -1,11 +1,11 @@
 {
   "device": "river-display-4.3b",
-  "version": 1,
-  "version_text": "1.0.0",
+  "version": 2,
+  "version_text": "1.1.0",
   "rollout_percent": 100,
   "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/river-display/firmware.bin",
-  "size": 1607168,
-  "md5": "b6da440bf6cd895ed5107606ee18ddb3",
-  "sha256": "48407042b4eb7431ff8a92e0604f5ff0e4439605572a8393c0e7797dc46bc6ca",
-  "notes": "River Display 4.3 OTA baseline: native Lake Pepin/Red Wing God's Eye face, larger typography, privacy-safe Wi-Fi provisioning, authenticated manifest and binary transport, A/B rollback, and staged-rollout support"
+  "size": 1760128,
+  "md5": "8002669dd777df3fc8191ee255a9a825",
+  "sha256": "c7a20d055b290fd61a3f3d0ec313945a55623ba37169290f6b852abdd7515abf",
+  "notes": "River Display 4.3 native Lake Pepin map: authoritative vessel markers, movement for fresh contacts capped at 30 seconds, stationary muted stale contacts, compact live weather/air/road overlays, and authenticated A/B OTA"
 }
