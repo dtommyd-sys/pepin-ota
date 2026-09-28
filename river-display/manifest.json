@@ -1,11 +1,11 @@
 {
   "device": "river-display-4.3b",
-  "version": 4,
-  "version_text": "1.2.0",
+  "version": 5,
+  "version_text": "1.2.1",
   "rollout_percent": 100,
   "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/river-display/firmware.bin",
-  "size": 1709776,
-  "md5": "e7c60c8802f6ba1c545afaf5dc8959f8",
-  "sha256": "cb291e8d6179291ad09d23fe564eb0483c3ce8c96ce99f5469ceeed9a782bd26",
-  "notes": "River Display 4.3 statewide Minnesota map with live aircraft movement capped at 30 seconds, color-coded traffic sensor markers, compact conditions HUD, cache-safe OTA downloads, and exact updater diagnostics"
+  "size": 1714880,
+  "md5": "7a8cb1bf42e6b07266e77ef3f8735d90",
+  "sha256": "73b73d88d679b17673141d33b0aa5bd472918dea27deb01af0cbe5984e590341",
+  "notes": "River Display 4.3 statewide Minnesota flights-and-traffic map; hotfix moves the contact workspace out of the loop task stack to prevent restart loops while preserving accuracy-capped aircraft motion and color-coded traffic"
 }
