@@ -1,11 +1,11 @@
 {
   "device": "river-display-4.3b",
-  "version": 12,
-  "version_text": "1.5.3",
+  "version": 18,
+  "version_text": "1.5.9",
   "rollout_percent": 100,
   "bin": "https://raw.githubusercontent.com/dtommyd-sys/pepin-ota/main/river-display/firmware.bin",
-  "size": 1742624,
-  "md5": "db9e516a16bee84fedd7fb76ea7aaae6",
-  "sha256": "0048f729c239386f334de7f3c8b38247b3a4ecaa54ac0dd87874dfde9c3d626c",
-  "notes": "God's Eye cable-final recovery release: performs authenticated OTA recovery before entering any face fetch/render path on every boot, fixes the post-Wi-Fi startup deadlock, and preserves night mode, glowing trails, aircraft icons, MPH, larger cards, and 48x48 touch targets"
+  "size": 1712048,
+  "md5": "c2e73471b45e2b2097bd108fe86ae97e",
+  "sha256": "d2f6bf58f7e98ab67595d2bb1f334d7f29dd5c55e580a86bb7142bdee8a4975f",
+  "notes": "Hardware-proven God's Eye recovery: boot-first authenticated OTA, PSRAM-backed contact/trail workspaces, reliable HTTP/1.0 public telemetry reads, 40 aircraft plus 24 traffic markers, eight two-layer glowing trails, clickable plane icons, MPH, night map, and larger detail cards"
 }
